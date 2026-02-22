@@ -1,0 +1,3 @@
+EXCHANGE_YAHOO_FINANCE = "yahoo_finance"
+QUEUE_YAHOO_FINANCE = "queue_yahoo_finance"
+ROUTING_KEY_YAHOO_FINANCE = ""
