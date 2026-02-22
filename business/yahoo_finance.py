@@ -162,7 +162,7 @@ class YahooFinanceConsumer:
                     "symbol": symbol,
                     "name": name or None,
                     "price": self._parse_price(price_raw),
-                    "country": country,
+                    "country": country.title(),
                     "created_at": datetime.datetime.utcnow(),
                 }
             )
